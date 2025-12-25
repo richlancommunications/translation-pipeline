@@ -1,0 +1,50 @@
+flowchart TD
+    A[Input Document] --> B{Document Parser}
+    B -->|DOCX| C[Text Extraction]
+    B -->|PDF| C
+    B -->|TXT| C
+    B -->|HTML| C
+    
+    C --> D[Glossary Manager]
+    D --> E{Load Domain Glossary}
+    E -->|Medical| F[Medical Terms]
+    E -->|Biblical| G[Biblical Terms]
+    E -->|Technical| H[Technical Terms]
+    
+    F --> I[Term Matching]
+    G --> I
+    H --> I
+    
+    I --> J[Translation Engine]
+    J --> K{Select Backend}
+    K -->|Primary| L[Ollama Local LLM]
+    K -->|Fallback| M[Google Translate API]
+    
+    L --> N[Apply Glossary Terms]
+    M --> N
+    
+    N --> O[Quality Checker]
+    O --> P{Confidence Score}
+    P -->|High| Q[Accept Translation]
+    P -->|Low| R[Flag for Review]
+    
+    Q --> S[Format Preservation]
+    R --> S
+    
+    S --> T{Output Format}
+    T -->|DOCX| U[Formatted Document]
+    T -->|PDF| U
+    T -->|TXT| U
+    
+    U --> V[Translation Result]
+    
+    V --> W[Quality Report]
+    W --> X{Glossary Coverage}
+    W --> Y{Confidence Metrics}
+    W --> Z{Terms Flagged}
+    
+    style A fill:#e1f5ff
+    style V fill:#c8e6c9
+    style J fill:#fff9c4
+    style O fill:#ffccbc
+    style D fill:#f3e5f5

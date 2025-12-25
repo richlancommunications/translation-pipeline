@@ -1,0 +1,376 @@
+{
+  "cardiovascular": [
+    {
+      "source": "hypertension",
+      "target": "shinikizo la damu",
+      "context": "medical/cardiology",
+      "confidence": 1.0,
+      "alternatives": [],
+      "notes": "Standard medical term widely used",
+      "frequency": "high"
+    },
+    {
+      "source": "blood pressure",
+      "target": "shinikizo la damu",
+      "context": "medical/cardiology",
+      "confidence": 1.0,
+      "alternatives": ["msukumo wa damu"],
+      "notes": "Same as hypertension term",
+      "frequency": "high"
+    },
+    {
+      "source": "heart rate",
+      "target": "mapigo ya moyo",
+      "context": "medical/cardiology",
+      "confidence": 0.95,
+      "alternatives": ["kasi ya moyo"],
+      "notes": "Both alternatives acceptable",
+      "frequency": "high"
+    },
+    {
+      "source": "cardiac arrest",
+      "target": "mshtuko wa moyo",
+      "context": "medical/emergency",
+      "confidence": 1.0,
+      "alternatives": ["moyo kusimama"],
+      "notes": "Emergency medical term",
+      "frequency": "medium"
+    },
+    {
+      "source": "arrhythmia",
+      "target": "mapigo yasiyokuwa ya kawaida ya moyo",
+      "context": "medical/cardiology",
+      "confidence": 0.90,
+      "alternatives": ["arrhythmia"],
+      "notes": "Sometimes kept as loanword",
+      "frequency": "medium"
+    }
+  ],
+  "diabetes_endocrine": [
+    {
+      "source": "diabetes mellitus",
+      "target": "kisukari",
+      "context": "medical/endocrinology",
+      "confidence": 1.0,
+      "alternatives": ["ugonjwa wa sukari"],
+      "notes": "Kisukari is standard term",
+      "frequency": "high"
+    },
+    {
+      "source": "blood sugar",
+      "target": "sukari ya damu",
+      "context": "medical/endocrinology",
+      "confidence": 1.0,
+      "alternatives": ["glukosi ya damu"],
+      "notes": "Both terms widely understood",
+      "frequency": "high"
+    },
+    {
+      "source": "insulin",
+      "target": "insulini",
+      "context": "medical/endocrinology",
+      "confidence": 1.0,
+      "alternatives": [],
+      "notes": "Loanword, standard usage",
+      "frequency": "high"
+    },
+    {
+      "source": "glucose level",
+      "target": "kiwango cha glukosi",
+      "context": "medical/laboratory",
+      "confidence": 1.0,
+      "alternatives": ["kiwango cha sukari"],
+      "notes": "Laboratory terminology",
+      "frequency": "high"
+    },
+    {
+      "source": "hypoglycemia",
+      "target": "kupungua kwa sukari ya damu",
+      "context": "medical/endocrinology",
+      "confidence": 0.95,
+      "alternatives": ["hypoglycemia"],
+      "notes": "Descriptive phrase preferred",
+      "frequency": "medium"
+    }
+  ],
+  "laboratory_diagnostics": [
+    {
+      "source": "blood test",
+      "target": "kipimo cha damu",
+      "context": "medical/laboratory",
+      "confidence": 1.0,
+      "alternatives": ["uchunguzi wa damu"],
+      "notes": "Standard laboratory term",
+      "frequency": "high"
+    },
+    {
+      "source": "hemoglobin",
+      "target": "hemoglobini",
+      "context": "medical/laboratory",
+      "confidence": 1.0,
+      "alternatives": [],
+      "notes": "Loanword, technical term",
+      "frequency": "high"
+    },
+    {
+      "source": "white blood cell count",
+      "target": "kiwango cha seli nyeupe za damu",
+      "context": "medical/laboratory",
+      "confidence": 1.0,
+      "alternatives": ["idadi ya seli nyeupe"],
+      "notes": "Full descriptive phrase",
+      "frequency": "medium"
+    },
+    {
+      "source": "platelets",
+      "target": "chembe-sahani za damu",
+      "context": "medical/laboratory",
+      "confidence": 0.95,
+      "alternatives": ["plateleti"],
+      "notes": "Literal translation preferred",
+      "frequency": "medium"
+    },
+    {
+      "source": "urinalysis",
+      "target": "uchunguzi wa mkojo",
+      "context": "medical/laboratory",
+      "confidence": 1.0,
+      "alternatives": ["kipimo cha mkojo"],
+      "notes": "Common diagnostic test",
+      "frequency": "medium"
+    }
+  ],
+  "clinical_research": [
+    {
+      "source": "clinical trial",
+      "target": "utafiti wa kimatibabu",
+      "context": "medical/research",
+      "confidence": 1.0,
+      "alternatives": ["jaribio la kikliniki"],
+      "notes": "Research terminology",
+      "frequency": "high"
+    },
+    {
+      "source": "randomized controlled trial",
+      "target": "jaribio lenye udhibiti wa nasibu",
+      "context": "medical/research",
+      "confidence": 0.90,
+      "alternatives": ["RCT"],
+      "notes": "Often abbreviated as RCT",
+      "frequency": "medium"
+    },
+    {
+      "source": "placebo",
+      "target": "dawa mwigo",
+      "context": "medical/research",
+      "confidence": 0.85,
+      "alternatives": ["plasebo"],
+      "notes": "Sometimes kept as loanword",
+      "frequency": "medium"
+    },
+    {
+      "source": "adverse event",
+      "target": "tukio baya",
+      "context": "medical/research",
+      "confidence": 0.95,
+      "alternatives": ["matukio yasiyotarajiwa"],
+      "notes": "Clinical trial terminology",
+      "frequency": "medium"
+    },
+    {
+      "source": "informed consent",
+      "target": "idhini yenye ufahamu",
+      "context": "medical/research/ethics",
+      "confidence": 1.0,
+      "alternatives": ["ridhaa iliyofafanuliwa"],
+      "notes": "Ethics requirement",
+      "frequency": "high"
+    },
+    {
+      "source": "efficacy",
+      "target": "ufanisi",
+      "context": "medical/research",
+      "confidence": 1.0,
+      "alternatives": ["utendaji"],
+      "notes": "Effectiveness in controlled conditions",
+      "frequency": "high"
+    },
+    {
+      "source": "biomarker",
+      "target": "kiashiria cha kibayolojia",
+      "context": "medical/research",
+      "confidence": 0.85,
+      "alternatives": ["biomarker"],
+      "notes": "Technical term, sometimes kept as loanword",
+      "frequency": "medium"
+    }
+  ],
+  "general_medical": [
+    {
+      "source": "patient",
+      "target": "mgonjwa",
+      "context": "medical/general",
+      "confidence": 1.0,
+      "alternatives": [],
+      "notes": "Universal medical term",
+      "frequency": "high"
+    },
+    {
+      "source": "diagnosis",
+      "target": "utambuzi",
+      "context": "medical/general",
+      "confidence": 1.0,
+      "alternatives": ["uchunguzi"],
+      "notes": "Standard medical term",
+      "frequency": "high"
+    },
+    {
+      "source": "treatment",
+      "target": "matibabu",
+      "context": "medical/general",
+      "confidence": 1.0,
+      "alternatives": ["tiba"],
+      "notes": "Both terms acceptable",
+      "frequency": "high"
+    },
+    {
+      "source": "symptom",
+      "target": "dalili",
+      "context": "medical/general",
+      "confidence": 1.0,
+      "alternatives": ["ishara"],
+      "notes": "Clinical presentation",
+      "frequency": "high"
+    },
+    {
+      "source": "medication",
+      "target": "dawa",
+      "context": "medical/general",
+      "confidence": 1.0,
+      "alternatives": [],
+      "notes": "Universal term for medicine",
+      "frequency": "high"
+    },
+    {
+      "source": "prescription",
+      "target": "maagizo ya dawa",
+      "context": "medical/general",
+      "confidence": 1.0,
+      "alternatives": ["cheti cha dawa"],
+      "notes": "Doctor's medication order",
+      "frequency": "high"
+    },
+    {
+      "source": "side effects",
+      "target": "madhara",
+      "context": "medical/general",
+      "confidence": 0.95,
+      "alternatives": ["athari za kando"],
+      "notes": "Medication effects",
+      "frequency": "high"
+    },
+    {
+      "source": "follow-up",
+      "target": "ufuatiliaji",
+      "context": "medical/general",
+      "confidence": 1.0,
+      "alternatives": ["kufuatilia"],
+      "notes": "Continued care",
+      "frequency": "high"
+    }
+  ],
+  "anatomy": [
+    {
+      "source": "liver",
+      "target": "ini",
+      "context": "medical/anatomy",
+      "confidence": 1.0,
+      "alternatives": [],
+      "notes": "Body organ",
+      "frequency": "high"
+    },
+    {
+      "source": "kidney",
+      "target": "figo",
+      "context": "medical/anatomy",
+      "confidence": 1.0,
+      "alternatives": [],
+      "notes": "Body organ",
+      "frequency": "high"
+    },
+    {
+      "source": "lung",
+      "target": "pafu",
+      "context": "medical/anatomy",
+      "confidence": 1.0,
+      "alternatives": ["mapafu (plural)"],
+      "notes": "Respiratory organ",
+      "frequency": "high"
+    },
+    {
+      "source": "heart",
+      "target": "moyo",
+      "context": "medical/anatomy",
+      "confidence": 1.0,
+      "alternatives": [],
+      "notes": "Cardiac organ",
+      "frequency": "high"
+    },
+    {
+      "source": "brain",
+      "target": "ubongo",
+      "context": "medical/anatomy",
+      "confidence": 1.0,
+      "alternatives": [],
+      "notes": "Central nervous system",
+      "frequency": "high"
+    }
+  ],
+  "procedures": [
+    {
+      "source": "surgery",
+      "target": "upasuaji",
+      "context": "medical/procedures",
+      "confidence": 1.0,
+      "alternatives": ["operesheni"],
+      "notes": "Surgical procedure",
+      "frequency": "high"
+    },
+    {
+      "source": "vaccination",
+      "target": "chanjo",
+      "context": "medical/procedures",
+      "confidence": 1.0,
+      "alternatives": ["kupiga chanjo"],
+      "notes": "Immunization",
+      "frequency": "high"
+    },
+    {
+      "source": "injection",
+      "target": "sindano",
+      "context": "medical/procedures",
+      "confidence": 1.0,
+      "alternatives": ["kudunga sindano"],
+      "notes": "Administration method",
+      "frequency": "high"
+    },
+    {
+      "source": "x-ray",
+      "target": "mionzi ya x",
+      "context": "medical/imaging",
+      "confidence": 0.95,
+      "alternatives": ["x-ray"],
+      "notes": "Imaging technique",
+      "frequency": "high"
+    },
+    {
+      "source": "ultrasound",
+      "target": "kipimo cha mawimbi ya sauti",
+      "context": "medical/imaging",
+      "confidence": 0.90,
+      "alternatives": ["ultrasound"],
+      "notes": "Diagnostic imaging",
+      "frequency": "medium"
+    }
+  ]
+}
